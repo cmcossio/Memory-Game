@@ -209,6 +209,7 @@ function restart() {
     gameStart();
     timerHold = [];
     matchHold = [];
+    tempHold = [];
     moveText.innerHTML = 0;
     moveCount = 0;
     starRating.innerHTML = '<i class = "fa fa-star"></i> <i class = "fa fa-star"></i> <i class = "fa fa-star"></i> <i class = "fa fa-star"></i>';
